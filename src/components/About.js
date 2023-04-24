@@ -1,4 +1,6 @@
 import React from 'react';
+import aboutImg from '../images/about.jpeg'
+
 function About() {
     return (<section className="section" id="about">
         <div className="section-title">
@@ -8,7 +10,7 @@ function About() {
         <div className="section-center about-center">
             <div className="about-img">
                 <img
-                    src="./images/about.jpeg"
+                    src={aboutImg}
                     className="about-photo"
                     alt="awesome beach"
                 />
