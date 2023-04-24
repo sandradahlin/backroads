@@ -37,3 +37,25 @@ export const socialLinks = [
         className: 'fab fa-squarespace'
     },
 ]
+
+export const services = [
+    {
+        id: 1,
+        title: 'saving money',
+        className: 'fas fa-wallet fa-fw',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+    {
+        id: 2,
+        title: 'endless hiking',
+        className: 'fas fa-tree fa-fw',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+    {
+        id: 3,
+        title: 'amazing comfort',
+        className: 'fas fa-socks fa-fw',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+
+]
